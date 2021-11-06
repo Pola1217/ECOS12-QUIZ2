@@ -1,0 +1,128 @@
+body {
+
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#addpContain {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: initial;
+    margin: 0 auto;
+    background-color: rgb(203, 238, 248);
+    padding: 50px;
+    
+}
+
+#addpContain * {
+
+    width: 100%;
+    margin: 10px 16px 10px 16px;
+
+}
+
+#bonoContain {
+
+    display: flex;
+    flex-direction: row;
+    width: 815px;
+    height: 95px;
+    justify-content: center;
+    margin: 0 auto;
+    
+    
+    
+}
+
+#bonoContain * {
+
+    margin: 20px 20px 20px 10px;
+
+}
+
+
+#title {
+
+    color: rgb(11, 0, 73);
+    margin: 15 auto;
+    text-align: center;
+}
+
+#curso {
+
+    height: 30px;
+    width: 250px;
+} 
+
+#name {
+
+    height: 30px;
+    width: 250px;
+} 
+
+#code {
+
+    height: 30px;
+    width: 250px;
+} 
+
+#regisBtn {
+
+    width: 90px;  
+    height: 30px;  
+    position: absolute;
+    top: 200px;
+    left: 700px;
+} 
+
+.student-card {
+
+    width: 200px;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    margin: 30px 0px 30px 465px;
+    background-color: rgb(252, 224, 250);
+    
+}
+
+.post-card-curso {
+
+    color: rgb(185, 21, 158);
+
+}
+
+.post-card-name {
+
+    color: rgb(170, 92, 164);
+    
+
+}
+
+.post-card-code {
+
+    color: rgb(88, 46, 76);
+
+}
+
+.post-card-participacion {
+
+    height: 24px;
+    width: 50px;
+   
+}
+
+.post-card-borrar {
+
+    height: 24px;
+    width: 50px;
+    background-color: rgb(218, 49, 49);
+    
+}

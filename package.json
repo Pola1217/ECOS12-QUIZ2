@@ -1,0 +1,29 @@
+{
+  "name": "ecos12",
+  "version": "1.0.0",
+  "description": "Quiz ecosistemas de semana 12",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "visualize-bundle": "webpack --analyze"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pola1217/ECOS12-QUIZ2.git"
+  },
+  "author": "Maria Jose Polanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pola1217/ECOS12-QUIZ2/issues"
+  },
+  "homepage": "https://github.com/Pola1217/ECOS12-QUIZ2#readme",
+  "dependencies": {
+    "firebase": "^9.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
